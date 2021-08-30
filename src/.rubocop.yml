@@ -1,0 +1,78 @@
+AllCops:
+  Exclude:
+    - logs/**/*
+    - db/schema.rb
+    - db/migrate/*.rb
+    - config/initializers/cookies.rb
+    - config/puma.rb
+    - godfile.rb
+    - app/services/dashboard_service.rb
+    - bin/*
+    - ruby-2.5.3.dockerfile
+
+Style/SymbolProc:
+  Enabled: false
+
+# This doesn't make sense. Learn to use `&&`, `||`, `and` and `or`. ;)
+# Link: http://www.virtuouscode.com/2010/08/02/using-and-and-or-in-ruby/
+Style/AndOr:
+  Enabled: false
+
+Layout/IndentHash:
+  EnforcedStyle: consistent
+
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
+Style/Documentation:
+  Enabled: false
+
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+    - db/migrate/*
+    - app/api/**/*
+    - lib/tasks/cubes.rake
+    - lib/tasks/populate.rake
+
+Metrics/ParameterLists:
+  Max: 10
+
+Metrics/MethodLength:
+  Max: 30
+  Exclude:
+    - db/migrate/*
+    - app/api/base.rb
+
+Metrics/AbcSize:
+  Max: 31
+  Exclude:
+    - db/migrate/*
+    - app/api/base.rb
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ClassLength:
+  Max: 450
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 8
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
