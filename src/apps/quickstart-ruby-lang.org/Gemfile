@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+# == Project Core
+
+# == Project Dependencies
+
+# https://rubygems.org/gems/rubocop
+# RuboCop is a Ruby code style checking and code formatting tool. It aims to enforce the community-driven Ruby Style Guide.
+gem 'rubocop'
+
+# https://rubygems.org/gems/solargraph/
+# IDE tools for code completion, inline documentation, and static analysis
+gem 'solargraph'
