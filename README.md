@@ -1,11 +1,12 @@
-[checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/master/assets/images/logos/logo_32_32.png 'MOZG'
+[checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/master/assets/images/logos/logo_32_32.png "MOZG"
 
 ![valid XHTML][checkmark]
 
-# Ruby
+# ruby-labs
 
 release/1.0.0_2
-## 
+
+##
 
 I resorted to downgrading to Ruby 2.6 because I was experiencing inconsistent and strange behavior by the VS code debugger after upgrading to Ruby 2.7. Not worth it.
 
@@ -24,7 +25,7 @@ rbenv which irb
 
 ```
 
-## 
+##
 
 ```bash
 
@@ -117,4 +118,4 @@ rvm install "ruby-2.6.6"
 
 ```
 
-## 
+##
