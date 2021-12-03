@@ -2,9 +2,7 @@
 
 ![valid XHTML][checkmark]
 
-# ruby-labs
-
-- marcio-Inspiron-7520_____09092021-141850
+# ruby-labs 👉️
 
 ## Contribuição
 
